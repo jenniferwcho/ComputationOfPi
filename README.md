@@ -1,4 +1,4 @@
-# ComputationOfPi
+# Computation Of Pi
 
 Pi’s numeric value is involved in calculations across a broad range of academic studies and has been computed using computer algorithms. This project implements three parallel methods of approximating the number, pi, which are the interval, integral, and the Monte Carlo method. 
 
