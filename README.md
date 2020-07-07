@@ -1,0 +1,7 @@
+# ComputationOfPi
+
+Pi’s numeric value is involved in calculations across a broad range of academic studies and has been computed using computer algorithms. This project implements three parallel methods of approximating the number, pi, which are the interval, integral, and the Monte Carlo method. 
+
+The implementation was done in C++ using both OpenMP and MPI parallelizing approaches. The algorithms divide calculation tasks among different processes to approximate the value of pi. Our experimental results show that for OpenMP algorithm implementations, the integral method had the fastest runtime, highest speedup ratio, and greatest efficiency while the interval method had the slowest runtime, lowest speedup ratio and least efficiency. For MPI algorithm implementations, however, the interval method resulted in fastest runtime, highest speedup, and greatest efficiency. The Monte Carlo method implementation resulted in slowest runtime, lowest speedup, and least efficiency in both OpenMP and MPI implementations. 
+
+We tested sequential, OpenMP, and MPI versions of these three pi calculation techniques on the Jigwe cluster, which contains 52 Intel(R) Xeon(R) Platinum 8164 CPU @ 2.00GHz CPU cores and has 196 GB of memory. The OpenMP implementations were tested using 2 to 2048 threads (increasing by a factor of 2), and the MPI implementations were tested using 2 to 128 Processors (increasing by a factor of 2)
